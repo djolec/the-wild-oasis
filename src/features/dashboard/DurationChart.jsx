@@ -155,8 +155,8 @@ function DurationChart({ confirmedStays }) {
             data={data}
             nameKey="duration"
             dataKey="value"
-            innerRadius={85}
-            outerRadius={110}
+            innerRadius={65}
+            outerRadius={90}
             cx="40%"
             cy="50%"
             paddingAngle={3}
@@ -173,9 +173,9 @@ function DurationChart({ confirmedStays }) {
           <Legend
             verticalAlign="middle"
             align="right"
-            width="30%"
+            width="35%"
             layout="vertical"
-            iconSize={15}
+            iconSize={10}
             iconType="circle"
           />
         </PieChart>
