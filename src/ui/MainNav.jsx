@@ -1,3 +1,4 @@
+import Uploader from "../data/Uploader";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import {
@@ -88,6 +89,8 @@ function MainNav() {
           </StyledNavLink>
         </li>
       </NavList>
+
+      {/* <Uploader /> */}
     </nav>
   );
 }
